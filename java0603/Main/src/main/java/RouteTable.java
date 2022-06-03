@@ -12,10 +12,7 @@ public class RouteTable {
     public GateWay getGateWay() {
         return gateWay;
     }
-    public void addSubnet(Subnet subnet) {
-        this.subnetList.add(subnet);
-        route(subnet);
-    }
+
     public void route(Subnet subnet){
         subnet.setRouteTable(this);
     }

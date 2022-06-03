@@ -6,6 +6,6 @@ public class NatGateWay {
         this.subnet = subnet;
     }
     public void send(String msg) {
-        System.out.println("NatGateWay : " + msg);
+        System.out.println(msg);
     }
 }
