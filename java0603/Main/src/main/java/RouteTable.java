@@ -12,8 +12,4 @@ public class RouteTable {
     public GateWay getGateWay() {
         return gateWay;
     }
-
-    public void route(Subnet subnet){
-        subnet.setRouteTable(this);
-    }
 }
